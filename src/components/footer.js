@@ -4,11 +4,6 @@ const Footer = (props)=> {
         <footer class="site-footer">
           <div class="container">
             <div class="row">
-              <div class="col-sm-12 col-md-6">
-                <h6>About</h6>
-                <p class="text-justify">Learn & Grow is an initiative to help the upcoming tech enthusiasts with the latest tech courses. We focuses on providing the most efficient courses. We will help programmers build up concepts in different technologies that include Javascript, React JS, Angular JS, HTML, CSS, Node JS.</p>
-              </div>
-    
             
     
              

@@ -1,0 +1,60 @@
+.overview {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(253, 212, 3);
+}
+
+#course-1{
+    font-size: 45px;
+    color: rgb(13, 28, 70);
+    text-align: center;
+    margin-top: 4%;
+    margin-right: 0px;
+    margin-bottom: 4%;
+    margin-left: 0px;
+    font-family: Poppins;
+    letter-spacing: 0.75px;
+    line-height: 122%;
+    font-weight: 600;
+    margin: 3% 0 4% 0;
+}
+
+.course-2{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    font-weight: 100;
+    justify-content: center;
+}
+
+.img-class {
+    display: flex;
+    width: 54%;
+    height: auto;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 6%;
+}
+.content {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 3% 0 4%;
+}

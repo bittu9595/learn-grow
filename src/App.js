@@ -3,6 +3,9 @@ import './App.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import Dashboard from './components/dashboard';
+import { Route, Routes } from 'react-router-dom';
+import AboutUs from './components/about';
+import CourseOverview from './components/courseoverview';
 
 function App() {
   return (
@@ -11,7 +14,12 @@ function App() {
       <Header/>
       </div>
      <div>
-    <Dashboard/>
+       <Routes>
+       <Route path = '/' element = {<Dashboard/>}/>
+       <Route path = '/about' element = {<AboutUs/>}/>
+       <Route path = '/course/:courseid' element = {<CourseOverview/>} />
+       </Routes>
+    
      </div>
 
      <div className='footer'>
